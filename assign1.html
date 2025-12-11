@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No1</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .tagline {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .tagline h3 {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 6px 12px;
+        }
+
+        .image img {
+            width: 200px;
+            display: block;
+            margin: auto;
+        }
+
+        .info {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 40px;
+        }
+
+        .sec1 video {
+            width: 350px;
+            height: auto;
+        }
+
+        .sec2 input, .sec2 textarea, .sec2 select {
+            margin-top: 5px;
+        }
+
+        textarea {
+            width: 250px;
+            height: 100px;
+        }
+
+        button {
+            padding: 6px 15px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: red;">SUNBEAM</h1>
+
+    <div class="tagline">
+        <h3 style="background-color: blue; color: white;">Exploring new ideas</h3>
+        <h3 style="background-color: yellow; color: black;">Reaching new Heights</h3>
+    </div>
+
+        <img src="sunbeam.jpeg" alt="Sunbeam Logo">
+    </div>
+
+    <h1>Sunbeam Registration Form</h1>
+
+    <div class="info">
+
+        <div class="sec1">
+            
+            <video src="vdo.mp4" controls></video>
+        </div>
+
+        <div class="sec2">
+            Name: <br>
+            <input type="text" placeholder="Enter name"><br><br>
+
+            Birth Date: <br>
+            <input type="date"><br><br>
+
+            Email: <br>
+            <input type="email" placeholder="Enter email"><br><br>
+
+            Password: <br>
+            <input type="password" placeholder="Enter password"><br><br>
+
+            Address: <br>
+            <textarea>
+Sunbeam Institute of IT
+'Anuda Chambers', 203
+Shanivar Peth, Near Gujar Hospital
+Karad – 415110 (Maharashtra)
+            </textarea><br><br>
+
+            Gender:  
+            <input type="radio" name="gender" value="male"> Male 
+            <input type="radio" name="gender" value="female"> Female <br><br>
+
+            Upload Photo:  
+            <input type="file"><br><br>
+
+            Select your Course:  
+            <select name="course">
+                <option value="">Select Course</option>
+                <option value="AIML">AIML</option>
+                <option value="CSE">CSE</option>
+                <option value="ENTC">ENTC</option>
+                <option value="MECH">MECH</option>
+            </select><br><br>
+
+            Skill Set:  
+            <input type="checkbox" value="Java"> Java
+            <input type="checkbox" value="CPP"> CPP
+            <input type="checkbox" value="OS"> OS <br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </div>
+    </div>
+
+</body>
+</html>
